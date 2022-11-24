@@ -4,23 +4,23 @@ importers:
 
   .:
     specifiers:
-      '@gcl/eslint-config': '*'
+      '@aftt/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.27.0
-      eslint-plugin-gcl: workspace:*
+      eslint-plugin-aftt: workspace:*
       rimraf: ^3.0.2
       typescript: ^4.9.3
     devDependencies:
-      '@gcl/eslint-config': link:packages/all
+      '@aftt/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.27.0
-      eslint-plugin-gcl: link:packages/eslint-plugin-gcl
+      eslint-plugin-aftt: link:packages/eslint-plugin-aftt
       rimraf: 3.0.2
       typescript: 4.9.3
 
   packages/all:
     specifiers:
-      '@gcl/eslint-config-vue': workspace:*
+      '@aftt/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.43.0
       '@typescript-eslint/parser': ^5.43.0
       eslint: ^8.27.0
@@ -36,7 +36,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      '@gcl/eslint-config-vue': link:../vue
+      '@aftt/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.43.0_wbsj7pk5g7hogwvhsif6xntns4
       '@typescript-eslint/parser': 5.43.0_eslint@8.27.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.27.0
@@ -57,7 +57,7 @@ importers:
     specifiers:
       eslint: ^8.27.0
       eslint-plugin-eslint-comments: ^3.2.0
-      eslint-plugin-gcl: workspace:*
+      eslint-plugin-aftt: workspace:*
       eslint-plugin-html: ^7.1.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-jsonc: ^2.5.0
@@ -71,7 +71,7 @@ importers:
       yaml-eslint-parser: ^1.1.0
     dependencies:
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.27.0
-      eslint-plugin-gcl: link:../eslint-plugin-gcl
+      eslint-plugin-aftt: link:../eslint-plugin-aftt
       eslint-plugin-html: 7.1.0
       eslint-plugin-import: 2.26.0_eslint@8.27.0
       eslint-plugin-jsonc: 2.5.0_eslint@8.27.0
@@ -86,7 +86,7 @@ importers:
     devDependencies:
       eslint: 8.27.0
 
-  packages/eslint-plugin-gcl:
+  packages/eslint-plugin-aftt:
     specifiers:
       '@types/node': ^18.11.9
       '@typescript-eslint/utils': ^5.43.0
@@ -103,14 +103,14 @@ importers:
 
   packages/react:
     specifiers:
-      '@gcl/eslint-config-ts': workspace:*
+      '@aftt/eslint-config-ts': workspace:*
       eslint: ^8.27.0
       eslint-plugin-react: ^7.31.10
       eslint-plugin-react-hooks: ^4.6.0
       react: ^18.2.0
       typescript: ^4.9.3
     dependencies:
-      '@gcl/eslint-config-ts': link:../typescript
+      '@aftt/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.31.10_eslint@8.27.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.27.0
     devDependencies:
@@ -120,12 +120,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@gcl/eslint-config-basic': workspace:*
+      '@aftt/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.43.0
       '@typescript-eslint/parser': ^5.43.0
       eslint: ^8.27.0
     dependencies:
-      '@gcl/eslint-config-basic': link:../basic
+      '@aftt/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.43.0_wbsj7pk5g7hogwvhsif6xntns4
       '@typescript-eslint/parser': 5.43.0_eslint@8.27.0
     devDependencies:
@@ -133,14 +133,14 @@ importers:
 
   packages/vue:
     specifiers:
-      '@gcl/eslint-config-basic': workspace:*
-      '@gcl/eslint-config-ts': workspace:*
+      '@aftt/eslint-config-basic': workspace:*
+      '@aftt/eslint-config-ts': workspace:*
       eslint: ^8.27.0
       eslint-plugin-vue: ^9.7.0
       local-pkg: ^0.4.2
     dependencies:
-      '@gcl/eslint-config-basic': link:../basic
-      '@gcl/eslint-config-ts': link:../typescript
+      '@aftt/eslint-config-basic': link:../basic
+      '@aftt/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.7.0_eslint@8.27.0
       local-pkg: 0.4.2
     devDependencies:
@@ -957,7 +957,7 @@ packages:
     dev: false
 
   /eslint-plugin-jsonc/2.5.0_eslint@8.27.0:
-    resolution: {integrity: sha512-G257khwkrOQ5MJpSzz4yQh5K12W4xFZRcHmVlhVFWh2GCLDX+JwHnmkQoUoFDbOieSPBMsPFZDTJScwrXiWlIg==}
+    resolution: {integrity: sha512-G257khwkrOQ5MJpSzz4yQh5K12W4xFZRcHmVlhVFWh2AFTTDX+JwHnmkQoUoFDbOieSPBMsPFZDTJScwrXiWlIg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'

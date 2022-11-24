@@ -1,10 +1,10 @@
 {
-  "name": "@gcl/eslint-config-ts",
+  "name": "@aftt/eslint-config-ts",
   "version": "0.0.11",
   "description": "",
   "author": "Lee ZCheng <gccll.love@gmail.com> (https://github.com/gcclll/)",
   "license": "MIT",
-  "homepage": "https://github.com/gcl/eslint-config",
+  "homepage": "https://github.com/gcclll/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@gcl/eslint-config-basic": "workspace:*",
+    "@aftt/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0"
   },

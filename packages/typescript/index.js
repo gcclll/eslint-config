@@ -1,8 +1,8 @@
-const basic = require('@gcl/eslint-config-basic')
+const basic = require('@aftt/eslint-config-basic')
 
 module.exports = {
   extends: [
-    '@gcl/eslint-config-basic',
+    '@aftt/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -106,7 +106,7 @@ module.exports = {
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
-    'gcl/generic-spacing': 'error',
+    'aftt/generic-spacing': 'error',
 
     // The following rule overrides require a parser service, aka. require a `typescript.json` path.
     // This needs to be done individually for each project, and it slows down linting significantly.

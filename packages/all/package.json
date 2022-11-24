@@ -1,5 +1,5 @@
 {
-  "name": "@gcl/eslint-config",
+  "name": "@aftt/eslint-config",
   "version": "0.0.11",
   "description": "My ESLint config",
   "author": "Lee ZCheng <gccll.love@gmail.com> (https://github.com/gcclll/)",
@@ -16,7 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@gcl/eslint-config-vue": "workspace:*",
+    "@aftt/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint-plugin-eslint-comments": "^3.2.0",

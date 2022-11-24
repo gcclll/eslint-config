@@ -1,5 +1,5 @@
 {
-  "name": "@gcl/eslint-config-react",
+  "name": "@aftt/eslint-config-react",
   "version": "0.0.11",
   "description": "",
   "author": "Lee ZCheng <gccll.love@gmail.com> (https://github.com/gcclll/)",
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@gcl/eslint-config-ts": "workspace:*",
+    "@aftt/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0"
   },

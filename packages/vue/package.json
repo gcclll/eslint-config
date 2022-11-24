@@ -1,5 +1,5 @@
 {
-  "name": "@gcl/eslint-config-vue",
+  "name": "@aftt/eslint-config-vue",
   "version": "0.0.11",
   "description": "",
   "author": "Lee ZCheng <gccll.love@gmail.com> (https://github.com/gcclll/)",
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@gcl/eslint-config-basic": "workspace:*",
-    "@gcl/eslint-config-ts": "workspace:*",
+    "@aftt/eslint-config-basic": "workspace:*",
+    "@aftt/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.7.0",
     "local-pkg": "^0.4.2"
   },
