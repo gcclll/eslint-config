@@ -1,6 +1,6 @@
 {
   "name": "@gcl/eslint-config-monorepo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Lee ZCheng <gccll.love@gmail.com> (https://github.com/gcclll/)",
