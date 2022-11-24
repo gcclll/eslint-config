@@ -1,6 +1,6 @@
 {
   "name": "@gcl/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My ESLint config",
   "author": "Lee ZCheng <gccll.love@gmail.com> (https://github.com/gcclll/)",
   "license": "MIT",
