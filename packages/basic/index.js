@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'gcl',
     'no-only-tests',
   ],
   settings: {
@@ -333,9 +333,8 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
+    'gcl/if-newline': 'error',
+    'gcl/import-dedupe': 'error',
     // 'antfu/prefer-inline-type-import': 'error',
   },
 }

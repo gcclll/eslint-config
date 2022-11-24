@@ -1,0 +1,6 @@
+{
+  "extends": "@gcl",
+  "plugins": [
+    "gcl"
+  ]
+}
